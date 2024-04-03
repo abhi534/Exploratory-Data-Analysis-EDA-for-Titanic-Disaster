@@ -17,7 +17,7 @@ This project aims to predict the survival of passengers aboard the Titanic using
 **Usage:**
 - Clone the repository: `git clone https://github.com/abhi534/titanic-survival-prediction.git`
 - Install dependencies: `pip install -r requirements.txt`
-- Run the notebook: `jupyter notebook titanic_survival_prediction.ipynb`
+- Run the notebook: `jupyter notebook Titanic (EDA).ipynb`
 
 **Dependencies:**
 - pandas
