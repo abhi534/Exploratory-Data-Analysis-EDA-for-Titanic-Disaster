@@ -1,35 +1,32 @@
-Objective:
-Explore the Titanic dataset to gain insights into factors affecting passenger survival.
+**Titanic Survival Prediction**
 
-For this project, we will use a popular dataset - the "Titanic: Machine Learning from Disaster" dataset from Kaggle. The dataset contains information about passengers on the Titanic, including whether they survived or not, age, class, fare, etc.
+This project aims to predict the survival of passengers aboard the Titanic using machine learning techniques. It analyzes the Titanic dataset, which contains information about passengers' demographic data, ticket information, and survival status.
 
-Steps:
+**Dataset Description:**
+- The dataset consists of features such as PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, and Embarked.
+- The target variable is "Survived", indicating whether a passenger survived (1) or not (0).
 
-1. Data Loading:
+**Project Overview:**
+1. **Data Cleaning and Preprocessing:** Handled missing values, converted categorical variables into the numeric format, and performed feature engineering to create new features like "FamilySize" and "Title".
+2. **Exploratory Data Analysis (EDA):** Conducted EDA to understand the distribution of survival across different features and visualize relationships between survival and other variables.
+3. **Feature Engineering:** One-hot encoded categorical features like "Title" to prepare the data for modelling.
+4. **Model Building:** Split the data into training and testing sets, trained a Random Forest classifier, and evaluated the model's performance using accuracy score, classification report, and confusion matrix.
+5. **Challenges Faced and Solutions:** Addressed issues with missing values, categorical variables, and feature extraction using appropriate techniques.
+6. **Conclusion and Future Scope:** Summarized findings, suggested improvements and outlined potential areas for future exploration, such as advanced feature engineering and deployment of the model into production.
 
-  Import the necessary libraries (e.g., pandas, numpy).
-  Load the Titanic dataset into a Pandas DataFrame.
+**Usage:**
+- Clone the repository: `git clone https://github.com/abhi534/titanic-survival-prediction.git`
+- Install dependencies: `pip install -r requirements.txt`
+- Run the notebook: `jupyter notebook titanic_survival_prediction.ipynb`
 
-2. Data Overview:
+**Dependencies:**
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
 
-  Display basic information about the dataset (columns, data types, missing values).
+**References:**
+- Dataset source: [Kaggle - Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data)
 
-3. Descriptive Statistics:
-
-  Generate descriptive statistics to understand the central tendency and dispersion of numerical features.
-
-4. Data Visualization:
-
-  Create visualizations to explore relationships and trends in the data.
-
-5. Feature Engineering:
-
-  Create new features or modify existing ones based on insights gained during exploration.
-
-6. Survival Analysis:
-
-  Explore factors influencing survival rates.
-
-7. Correlation Analysis:
-
-  Explore correlations between numerical features.
+Feel free to explore the project, contribute improvements, or use it as a learning resource for machine learning and data analysis. If you encounter any issues or have suggestions, please open an issue or pull request. Happy coding!
