@@ -23,9 +23,9 @@ This project aims to predict the survival of passengers aboard the Titanic using
 
 **Usage:**
 
-1. Clone the repository: `git clone https://github.com/abhi534/Predictive-Analysis-of-House-Prices-Leveraging-Python-Libraries-for-Accuracy.git`
+1. Clone the repository: `git clone https://github.com/abhi534/Titanic-Insights-Data-driven-Survival-Analysis-.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the notebook: `jupyter notebook Predictive Analysis of Breast Cancer Diagnosis.ipynb`
+3. Run the notebook: `jupyter notebook Titanic Survival Prediction.ipynb`
 
 **Dependencies:**
 
